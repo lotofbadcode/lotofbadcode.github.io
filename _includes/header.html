@@ -5,15 +5,14 @@
         <ul>
             <li><a href="{{ site.baseurl }}/">首页</a></li>
             <li><a href="{{ site.baseurl }}/left-sidebar.html">php扩展</a></li>
-            <li><a href="{{ site.baseurl }}/right-sidebar.html">BT SPA 单页面后台模板</a></li>
-            <li><a href="{{ site.baseurl }}/no-sidebar.html">No Sidebar</a></li>
+            <li><a href="{{ site.baseurl }}/right-sidebar.html">BS-SPA </a></li>
+            <li><a href="{{ site.baseurl }}/no-sidebar.html">SMES</a></li>
             <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
             {% for page in site.pages %}
             {% if page.title %}
             <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
             {% endfor %}
-            <li><a href="#" class="button special">Sign Up</a></li>
         </ul>
     </nav>
 </header>
